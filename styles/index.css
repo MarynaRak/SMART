@@ -1,6 +1,12 @@
 @import url(./header.css);
 @import url(./about.css);
 @import url(./compare.css);
+@import url(./header_tablet.css);
+@import url(./header_mobile.css);
+@import url(./about_tablet.css);
+@import url(./about_mobile.css);
+@import url(./compare_tablet.css);
+@import url(./compare_mobile.css);
 
 html {
   scroll-behavior: smooth;
@@ -14,12 +20,25 @@ body {
 }
 
 .container {
-  width: 1444px;
   margin: 0 auto;
+  width: 1444px;
+}
+
+@media (max-width: 1475px) {
+    .container {
+      padding-left: 20px;
+      padding-right: 20px;
+      }
 }
 
 @media (max-width: 1023px) {
     .container {
         width: 100%;
       }
+}
+
+@media (max-width: 321px) {
+  .container {
+      width: 100%;
+    }
 }

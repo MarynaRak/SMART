@@ -3,9 +3,9 @@
     margin-bottom: 99px;
     padding-top: 228px;
     padding-left: 1118px;
-    width: 1439px;
-    height: 708px;
     background-image: url(../images/about-blanket-img.png);
+    background-size: 1439px 708px;
+    background-repeat: no-repeat;
   }
   
   .about-blanket_text {
@@ -20,6 +20,8 @@
   
   .about-blanket_list {
     margin-bottom: 77px;
+    display: flex;
+    flex-direction: column;
     width: 1444px;
   }
   
@@ -56,3 +58,5 @@
     color: #e27601;
     letter-spacing: 2px;
   }
+
+  
